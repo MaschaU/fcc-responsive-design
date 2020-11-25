@@ -1,6 +1,6 @@
 /*font-family: 'Patua One', cursive ---header
 font-family: 'Exo', sans-serif ---main
-colors: #e66746 #e47c9d e8789e cc6611
+colors: #e66746  e8789e cc6611
 background: #ffeddf ; */
 
 * {
@@ -24,4 +24,33 @@ h1 {
     color: #24110b;
     font-size: 80px;
     text-shadow: 2px 2px 12px #632c0d;
+    margin: 30px;
 }
+
+#img-div {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    
+}
+
+#image {
+    height: 600px;
+    width: 450px;
+    border: 4px solid #cc6611;
+}
+
+#border-two {
+    height: 608px;
+    width: 458px;
+    border: 4px solid #e47c9d;
+}
+
+#border-three {
+    height: 616px;
+    width: 466px;
+    border: 4px solid #e66746;
+
+}
+
