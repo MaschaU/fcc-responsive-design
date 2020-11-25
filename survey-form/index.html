@@ -15,38 +15,45 @@
     <main>
         <form id="survey-form">
             <label id="name-label" for="name">Name</label>
-            <input id="name" type="text" name="name" placeholder="Your Name" required/>
+            <input id="name" type="text" name="name" placeholder="Your Name" required/><br>
             <label id="email-label" for="email">Email</label>
-            <input id="email" type="email" name="email" placeholder="Your Email" required>
+            <input id="email" type="email" name="email" placeholder="Your Email" required><br>
             <label id="number-label" for="number">Age</label>
-            <input type="number" name="age" placeholder="Your Age" min="18" max="100" required>
-            <p>And this is my survey's dropdown menu!</p>
+            <input id="number" type="number" name="age" placeholder="Your Age" min="18" max="100" required><br>
+            <p>Check out this rad dropdown menu!</p>
             <select id="dropdown" name="dropdown" required>
-                <option disabled selected value>These are my menu's options. You need to select one. So exciting!</option>
+                <option disabled selected value>These are the menu's options. You need to select one. So exciting!</option>
                 <option value="pleased">Man, what an awesome menu!</option>
                 <option value="ambivalent">Sorry, I'm not feelin' it!</option>
                 <option value="excited">This is the best menu in the history of menus!</option>
                 <option value="angry">You don't wanna know what I think about your menu!</option>
             </select>
             <p>Would you consider forking this form?</p>
-            <label><input name="yes" value="yes" type="radio" checked/>Hell, yeah!</label>
-            <label><input name="no" value="no" type="radio" checked/>Are you shitting me?</label>
-            <label><input name="maybe" value="maybe" type="radio" checked/>Dunno. Are there no others available?</label>
+            <input type="radio" id="yes" name="answer-one" value="yes" >
+            <label for="yes">Hell, yeah!</label><br>
+            <input id="no" name="answer-one" value="no" type="radio">
+            <label for="no">Are you shitting me?</label><br>
+            <input id="maybe" name="answer-one" value="maybe" type="radio">
+            <label for="maybe">Dunno. Are there no others available?</label><br>
             <p>What do you like the best about this survey form?</p>
-            <select id="me-likes" name="me-likes" required>
-                <option disabled selected value>Check an option, please!</option>
-                <option value="cookies">No cookies</option>
-                <option value="design">Brilliant design</option>
-                <option value="mascha">Mascha made it</option>
+            <select id="second-dropdown" name="second-dropdown" required>
+                <option disabled selected value>Again. Check only one!</option><br>
+                <option value="cookies">No cookies!</option>
+                <option value="design">Dat brilliant and responsive design!</option>
+                <option value="mascha">It's made by MaschaU</option>
             </select>
-            <p>What should I do in order to improve this survey form?<span class="improvement-check">(Check all that apply)</span></p>
-            <label><input name="nuke" value="nuke" type="checkbox"/>Deprecate the entire thing</label>
-            <label><input name="fireworks" value="bells" type="checkbox"/>Add some fireworks</label>
-            <label><input name="friend" value="nuke" type="checkbox"/>Ask for some help</label>
-            <label><input name="nothing" value="nuke" type="checkbox"/>Nothing. It gives so much joy the way it is</label>
+            <p>What should I do in order to improve this survey form?</p>
+            <input type="checkbox" id="nuke-it" name="nuke-it" value="nuke-it" >
+            <label for="nuke-it">Nuke the entire thing!</label><br>
+            <input type="checkbox" id="fireworks" name="fireworks" value="fireworks" >
+            <label for="fireworks">Add some fireworks on submit!</label><br>
+            <input type="checkbox" id="help" name="help" value="help" >
+            <label for="help">Call a friend!</label><br>
+            <input type="checkbox" id="nothing" name="nothing" value="nothing" >
+            <label for="nothing">Nothing! It's a decent MVP.</label><br>
             <p>Any last words?</p>
-            <textarea id="comments" name="comments" placeholder="Enter here if brave enough"></textarea>
-            <button type="submit">Bang on!</button> 
+            <textarea id="comments" name="comments" placeholder="Enter here if brave enough"></textarea><br>
+            <button id="submit" type="submit">Bang on!</button> 
             
 
 
