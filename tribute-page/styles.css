@@ -27,7 +27,7 @@ h1 {
     margin: 30px;
 }
 
-h2 {
+h2, li {
     font-family: 'Exo', sans-serif;
     font-size: 20px;
     color: #24110b;
@@ -60,5 +60,15 @@ h2 {
     border: 6px solid #e66746;
     margin: 10px;
 
+}
+
+ul {
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+}
+
+li {
+    font-size: 25px;
 }
 
