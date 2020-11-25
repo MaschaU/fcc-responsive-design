@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</head>
+<body>
+    <header>
+        <h1 id="title">My Survey Form</h1>
+        <p id="description">My take on the Survey Form challenge</p>
+    </header>
+    <main>
+        <form id="survey-form">
+            <label id="name-label" for="name">Name</label>
+            <input id="name" type="text" name="name" placeholder="Your Name" required/>
+            <label id="email-label" for="email">Email</label>
+            <input type="text" name="email" placeholder="Your Email" required>
+            <label id="number-label" for="number">Age</label>
+            <input type="number" name="age" placeholder="Your Age" min="18" max="100" required>
+            <p>And this is my survey's dropdown menu!</p>
+            <select id="dropdown" name="dropdown" required>
+                <option disabled selected value>These are my menu's options. You need to select one. So exciting!</option>
+                <option value="pleased">Man, what an awesome menu!</option>
+                <option value="ambivalent">Sorry, I'm not feelin' it!</option>
+                <option value="excited">This is the best menu in the history of menus!</option>
+                <option value="angry">You don't wanna know what I think about your menu!</option>
+            </select>
+            <p>Would you consider forking this form?</p>
+            <label><input name="yes" value="yes" type="radio" checked/>Hell, yeah!</label>
+            <label><input name="no" value="no" type="radio" checked/>Are you shitting me?</label>
+            <label><input name="maybe" value="maybe" type="radio" checked/>Dunno. Are there no others available?</label>
+            <p>What do you like the best about this survey form?</p>
+            <select id="me-likes" name="me-likes" required>
+                <option disabled selected value>Check an option, please!</option>
+                <option value="cookies">No cookies</option>
+                <option value="design">Brilliant design</option>
+                <option value="mascha">Mascha made it</option>
+            </select>
+            <p>What should I do in order to improve this survey form?<span class="improvement-check">(Check all that apply)</span></p>
+            <label><input name="nuke" value="nuke" type="checkbox"/>Deprecate the entire thing</label>
+            <label><input name="fireworks" value="bells" type="checkbox"/>Add some fireworks</label>
+            <label><input name="friend" value="nuke" type="checkbox"/>Ask for some help</label>
+            <label><input name="nothing" value="nuke" type="checkbox"/>Nothing. It gives so much joy the way it is</label>
+            <p>Any last words?</p>
+            <textarea id="comments" name="comments" placeholder="Enter here if brave enough"></textarea>
+            <button type="submit">Bang on!</button> 
+            
+
+
+
+        </form>
+    </main>
+    
+</body>
+</html>
