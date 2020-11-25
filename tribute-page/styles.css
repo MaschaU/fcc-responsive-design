@@ -27,30 +27,38 @@ h1 {
     margin: 30px;
 }
 
+h2 {
+    font-family: 'Exo', sans-serif;
+    font-size: 20px;
+    color: #24110b;
+
+}
+
 #img-div {
-    width: 30%;
+    width: 27%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 80px;
-    
+    text-align: center;
 }
 
 #image {
     height: 600px;
     width: 450px;
-    border: 4px solid #cc6611;
+    border: 6px solid #cc6611;
 }
 
 #border-two {
-    height: 608px;
-    width: 458px;
-    border: 4px solid #e47c9d;
+    height: 612px;
+    width: 462px;
+    border: 6px solid #e47c9d;
 }
 
 #border-three {
-    height: 616px;
-    width: 466px;
-    border: 4px solid #e66746;
+    height: 622px;
+    width: 472px;
+    border: 6px solid #e66746;
+    margin: 10px;
 
 }
 
