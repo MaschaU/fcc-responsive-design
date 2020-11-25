@@ -1,0 +1,27 @@
+/*font-family: 'Patua One', cursive ---header
+font-family: 'Exo', sans-serif ---main
+colors: #e66746 #e47c9d e8789e cc6611
+background: #ffeddf ; */
+
+* {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ffeddf;
+
+}
+
+header {
+    background: radial-gradient(circle, rgba(255,237,223,0.022868522408963532) 0%, rgba(252,232,216,1) 47%, rgba(255,237,223,1) 100%);
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Patua One', cursive;
+    color: #24110b;
+    font-size: 80px;
+    text-shadow: 2px 2px 12px #632c0d;
+}
