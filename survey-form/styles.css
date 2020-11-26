@@ -43,3 +43,10 @@ section {
     margin-left: 50px;
     padding: 15px;
 }
+
+input, select {
+    background-color: #080707;
+    height: 37px;
+    color: #d6ebf1;
+    border: 1px solid #47c8f7;
+}
