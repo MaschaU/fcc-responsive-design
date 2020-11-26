@@ -48,11 +48,13 @@ input, select {
     background-color: #080707;
     height: 37px;
     color: #d6ebf1;
+    font-size: 1.2rem;
     border: 1px solid #8fd8f3;
     border-radius: 12px;
     margin-bottom: 20px;
     margin-top: 8px;
     width: 100%;
+    text-indent: 10px;
 }
 
 #yes, #no, #maybe, #nuke-it, #fireworks, #help, #nothing {
@@ -62,10 +64,20 @@ input, select {
 
 .make-it-pop {
     color: #78f5f5;
+    margin-bottom: 10px;
+    margin-top: 30px;
 }
 
 #name-label, #email-label, #number-label {
     color: #d7eff8;
     margin-left: 0;
+}
+
+#personal-info {
+    margin-top: 15px;
+}
+
+input::placeholder  {
+    text-indent: 10px ;
 }
 
