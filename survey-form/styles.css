@@ -12,7 +12,7 @@ header {
     text-align: center;
     margin: 15px;
     padding: 20px;
-    color: #47c8f7;
+    color: #5adff7;
 }
 
 h1 {
@@ -27,7 +27,7 @@ h1 {
 }
 
 label, p {
-    color: #b8e0ee;
+    color: #d7eff8;
     font-size: 1.5rem;
     margin: 10px;
     margin-left: 0;
@@ -48,5 +48,14 @@ input, select {
     background-color: #080707;
     height: 37px;
     color: #d6ebf1;
-    border: 1px solid #47c8f7;
+    border: 1px solid #8fd8f3;
+    border-radius: 12px;
+}
+
+.make-it-pop {
+    color: #78f5f5;
+}
+
+#name-label, #email-label, #number-label {
+    color: #d7eff8;
 }
