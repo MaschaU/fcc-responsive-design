@@ -12,11 +12,12 @@ header {
     text-align: center;
     margin: 15px;
     padding: 20px;
-    color: #5adff7;
+    
 }
 
 h1 {
     font-size: 3rem;
+    color: #4ce7ec;
 }
 
 #survey-form {
@@ -32,6 +33,10 @@ label, p {
     margin-top: 0;
 }
 
+label {
+    margin-left: 5px;
+}
+
 main {
     width: 45%;
     margin-left: auto;
@@ -41,10 +46,9 @@ main {
 section {
     margin-left: 50px;
     margin-right: 50px;
-    /*padding: 15px;*/
 }
 
-input, select {
+input, select, textarea {
     background-color: #080707;
     height: 37px;
     color: #d6ebf1;
@@ -80,4 +84,21 @@ input, select {
 input::placeholder  {
     text-indent: 10px ;
 }
+
+button {
+    background-color: #4ce7ec;
+    height: 45px;
+    color: #080707;
+    font-size: 1.5rem;
+    border: 3px solid #080707;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    margin-top: 8px;
+    width: 100%;
+    text-indent: 10px;
+}
+
+
+
+
 
