@@ -13,16 +13,22 @@ header {
     margin: 15px;
     padding: 20px;
     color: #47c8f7;
-    /*background-color: #131111/*#201E1E;*/
+}
+
+h1 {
+    font-size: 3rem;
 }
 
 #survey-form {
-    background-color: #202324 /*#282B2D*/;
+    background-color: #202324;
+    border: 2px solid #69d2f8;
+    border-radius: 12px;
     
 }
 
 label, p {
     color: #b8e0ee;
+    font-size: 1.5rem;
 }
 
 main {
