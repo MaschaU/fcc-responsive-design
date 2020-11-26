@@ -41,8 +41,12 @@ h3 {
 }
 
 p, label {
-    color:  rgb(243, 239, 221);
+    color: #ede68a;
     font-size: 1.5rem;
+}
+
+#email-label {
+    color: rgb(243, 239, 221);
 }
 
 #nav-bar {
@@ -96,15 +100,22 @@ p, label {
 
 #disclaimer {
     text-align: center;
+    margin-top: 30px;
 }
 
 #video-section {
     text-align: center;
+    margin-top: 70px;
+}
+
+#video {
+    border: 10px solid #383a56;
+    margin-top: 0;
 }
 
 #pricing {
-    width: 95%;
-    height: 470px;
+    width: 70%;
+    height: 500px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -114,7 +125,7 @@ p, label {
 }
 
 .card {
-    width: 30%;
+    width: 20%;
     height: 435px;
     margin-left: auto;
     margin-right: auto;
@@ -131,3 +142,47 @@ p, label {
 .pricing-h1 {
     font-size: 1rem;
 }
+
+.pricing-p {
+    font-size: 1.3rem;
+}
+
+input {
+    background-color: #383a56;
+    border: 2px solid #f8f4bb;
+    border-radius: 4px;
+    height: 35px;
+    width: 15%;
+    margin: 10px;
+    color: #f8f4bb;
+}
+
+input::placeholder {
+    text-indent: 10px;
+}
+
+@media (max-width: 1700px) {
+    .card-img {
+        width: 200px;
+    }
+}
+
+@media (max-width: 1450px) {
+    .card-img {
+        width: 180px;
+    }
+    .card {
+        height: 450px;
+    }
+}
+
+@media (max-width: 1350px) {
+    .card-img {
+        width: 175px;
+    }
+
+    .card {
+        height: 450px;
+    }
+}
+
