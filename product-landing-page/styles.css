@@ -40,3 +40,24 @@ header {
 #subscribe {
     text-align: center;
 }
+
+#special {
+    text-align: center;
+}
+
+#pricing {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    width: 30%;
+    height: 400px;
+}
+
+.card-img {
+    width: 250px;
+    height: 310px;
+    object-fit: cover;
+}
