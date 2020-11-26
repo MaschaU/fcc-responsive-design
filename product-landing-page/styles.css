@@ -41,7 +41,7 @@ h3 {
 }
 
 p, label {
-    color: rgb(243, 239, 221);
+    color:  rgb(243, 239, 221);
     font-size: 1.5rem;
 }
 
@@ -76,6 +76,7 @@ p, label {
 #tag-line {
     text-align: center;
     margin-top: 0;
+    padding-bottom: 20px;
 }
 
 #pitch {
@@ -102,18 +103,31 @@ p, label {
 }
 
 #pricing {
+    width: 95%;
+    height: 470px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     display: flex;
     align-items: center;
+    background-color: #383a56;
 }
 
 .card {
     width: 30%;
-    height: 400px;
+    height: 435px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #ede68a; 
 }
 
 .card-img {
     width: 250px;
     height: 310px;
     object-fit: cover;
+    padding-top: 10px;
+}
+
+.pricing-h1 {
+    font-size: 1rem;
 }
