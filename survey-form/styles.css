@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:  #080707;
+}
+
+header {
+    text-align: center;
+    margin: 15px;
+    padding: 20px;
+    color: #47c8f7;
+    /*background-color: #131111/*#201E1E;*/
+}
+
+#survey-form {
+    background-color: #202324 /*#282B2D*/;
+    
+}
+
+label, p {
+    color: #b8e0ee;
+}
+
+main {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    margin-left: 50px;
+}
