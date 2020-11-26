@@ -12,7 +12,6 @@ header {
     text-align: center;
     margin: 15px;
     padding: 20px;
-    
 }
 
 h1 {
@@ -24,7 +23,6 @@ h1 {
     background-color: #202324;
     border: 2px solid #69d2f8;
     border-radius: 12px;
-    
 }
 
 label, p {
@@ -97,6 +95,15 @@ button {
     width: 100%;
     text-indent: 10px;
 }
+
+@media (max-width: 1024px) {
+    main {
+        width: 95%;
+        margin-bottom: 15px;
+    }
+}
+
+
 
 
 
