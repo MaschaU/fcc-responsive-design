@@ -45,6 +45,14 @@ header {
     text-align: center;
 }
 
+#disclaimer {
+    text-align: center;
+}
+
+#video-section {
+    text-align: center;
+}
+
 #pricing {
     text-align: center;
     display: flex;
