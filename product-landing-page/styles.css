@@ -3,9 +3,40 @@
     padding: 0;
 }
 
+header {
+    background-color: black;
+    border: 2px solid gold;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+#header-img {
+    height: 60px;
+    width: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 #nav-bar {
     position: fixed;
     top: 0;
     right: 0;
+}
 
+.nav-link {
+    color: goldenrod;
+}
+
+#title {
+    text-align: center;
+}
+
+#pitch {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#subscribe {
+    text-align: center;
 }
