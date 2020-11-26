@@ -29,6 +29,8 @@ h1 {
 label, p {
     color: #b8e0ee;
     font-size: 1.5rem;
+    margin: 10px;
+    margin-left: 0;
 }
 
 main {
@@ -39,4 +41,5 @@ main {
 
 section {
     margin-left: 50px;
+    padding: 15px;
 }
