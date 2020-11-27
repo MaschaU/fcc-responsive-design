@@ -52,19 +52,18 @@ links: background-color: rgba(187,239,253,0.3);
 }
 
 header {
-	font-size: 1.9rem;
 	font-weight: bold;
 	padding-left: 0;
 	padding-top: 30px;
 	padding-bottom: 10px;
 }
 
-p {
-	/*font-size: 1.2rem;*/
-}
-
-
-
 li {
 	list-style:none;
+}
+
+@media (min-width: 1120px) and (max-width: 1390px) {
+	#navbar-title {
+		font-size: 2rem;
+	}
 }
