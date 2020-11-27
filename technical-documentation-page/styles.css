@@ -7,18 +7,32 @@ links: background-color: rgba(187,239,253,0.3);
 
 blue #61dafb;
 
-logo: https://i.imgur.com/k8GXdkt.png*/
+logo: https://i.imgur.com/k8GXdkt.png
+
+light font: font-family: 'Ubuntu', sans-serif;
+bold: font-family: 'Ubuntu', sans-serif; */
 * {
     margin: 0;
 }
 
 #navbar {
 	width: 30%;
+	height: 100%;
 	position: fixed;
 	left: 0;
 	top: 0;
 	display: flex;
 	flex-direction: column;
+	background-color: #20232a ;
+}
+
+.nav-link {
+	color: white;
+	text-decoration: none;
+}
+
+#navbar-title {
+	color: #61dafb;
 }
 
 #main-doc {
