@@ -1,3 +1,22 @@
+/*colors: dark #20232a 
+input: background transparent
+
+links: background-color: rgba(187,239,253,0.3);
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    color: #1a1a1a;
+
+blue #61dafb;
+
+logo: https://i.imgur.com/k8GXdkt.png*/
 * {
     margin: 0;
+}
+
+img {
+	height: 50px;
+	width: 50px;
+}
+
+li {
+	list-style:none;
 }
