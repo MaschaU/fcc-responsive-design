@@ -12,6 +12,21 @@ logo: https://i.imgur.com/k8GXdkt.png*/
     margin: 0;
 }
 
+#navbar {
+	width: 30%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+#main-doc {
+	width: 70%;
+	position: absolute;
+	right: 0;
+}
+
 img {
 	height: 50px;
 	width: 50px;
