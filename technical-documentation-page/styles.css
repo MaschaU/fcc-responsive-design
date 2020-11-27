@@ -42,13 +42,21 @@ links: background-color: rgba(187,239,253,0.3);
 
 .nav-link:hover {
 	color: #61dafb;
+	  
 }
-
 
 #main-doc {
 	width: 70%;
 	position: absolute;
 	right: 0;
+}
+
+header {
+	font-size: 1.9rem;
+	font-weight: bold;
+	padding-left: 0;
+	padding-top: 30px;
+	padding-bottom: 10px;
 }
 
 
