@@ -10,8 +10,12 @@ links: background-color: rgba(187,239,253,0.3);
 		font-family: 'Ubuntu', sans-serif;
 }
 
+body {
+	width: 100vw;
+}
+
 #navbar {
-	width: 23%;
+	width: 25%;
 	height: 100%;
 	position: fixed;
 	left: 0;
@@ -67,3 +71,39 @@ li {
 		font-size: 2rem;
 	}
 }
+
+@media (max-width: 540px) {
+	#navbar {
+		width: 25%;
+	}
+	#react-logo {
+		height: 50px;
+		width: 50px;
+	}
+
+	#navbar-title {
+		font-size: 1.2rem;
+		margin: 20px 0px 10px 10px;
+	}
+	
+	.nav-link {
+		font-size: 1rem;
+	}
+
+	p, h2 {
+		font-size: 1rem;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	#main-doc {
+		width: 75%;
+	}
+
+	.main-header {
+		padding-left: 10px;
+	}
+
+
+}
+
