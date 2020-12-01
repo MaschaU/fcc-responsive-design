@@ -46,3 +46,21 @@
 	font-size: 3rem;
 	color: #2d132c;
 }
+
+#projects-headline {
+	background-color: #2d132c;
+	text-align: center;
+}
+
+h1 {
+	color: wheat;
+	font-size: 3rem;
+}
+
+.projects-grid {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	background-color:#C72C41;
+}
