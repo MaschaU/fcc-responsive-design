@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 
@@ -57,6 +58,7 @@
 	border: 1px solid wheat;
 	border-left: transparent;
 	border-right: transparent;
+	border-bottom: transparent;
 }
 
 h1 {
@@ -68,7 +70,21 @@ h1 {
 .projects-grid {
 	display: flex;
 	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	background-color:#C72C41;
+	justify-content: space-evenly;
+	background-color:#2d132c;
+}
+
+.project-img {
+	width: 350px;
+	height: 200px;
+	padding: 20px;
+}
+
+.project-title {
+	text-decoration: none;
+	text-align: center;
+}
+
+h2 {
+	color: #ee4540;
 }
