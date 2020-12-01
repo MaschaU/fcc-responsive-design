@@ -5,7 +5,7 @@
 
 
 .nav-links {
-	color: wheat;
+	color: #C72C41;
 	text-decoration: none;
 	font-size: 1.5rem;
 	padding: 20px;
@@ -24,6 +24,10 @@
 	position: fixed;
 	top: 0;
 	right: 0;
+	border: 1px solid wheat;
+	border-left: transparent;
+	border-right: transparent;
+	border-top: transparent;
 }
 
 #welcome-section {
@@ -39,7 +43,7 @@
 
 #welcome-h1 {
 	font-size: 5rem;
-	color: #2d132c;
+	color: rgb(245, 200, 158);
 }
 
 #welcome-h2 {
@@ -50,11 +54,15 @@
 #projects-headline {
 	background-color: #2d132c;
 	text-align: center;
+	border: 1px solid wheat;
+	border-left: transparent;
+	border-right: transparent;
 }
 
 h1 {
-	color: wheat;
+	color: #C72C41;
 	font-size: 3rem;
+	padding: 30px;
 }
 
 .projects-grid {
