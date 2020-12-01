@@ -5,7 +5,7 @@
 }
 
 
-.nav-links {
+.nav-links, p {
 	color: #C72C41;
 	text-decoration: none;
 	font-size: 1.5rem;
@@ -98,6 +98,7 @@ h2 {
 	background-color: #801336;
 	width: 100%;
 	text-align: center;
+	padding-bottom: 50px;
 }
 
 #connect-h1 {
@@ -109,4 +110,12 @@ h2 {
 .logo {
 	border-radius: 50%;
 	padding: 15px;
+}
+
+footer {
+	background-color: #2d132c;
+	border: 1px solid wheat;
+	border-bottom: transparent;
+	border-left: transparent;
+	border-right: transparent;
 }
