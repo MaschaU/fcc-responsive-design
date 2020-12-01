@@ -3,9 +3,6 @@
 	padding: 0;
 }
 
-header {
-	background-color: #2d132c; 
-}
 
 .nav-links {
 	color: wheat;
@@ -19,9 +16,12 @@ header {
 	text-decoration: underline;
 }
 
-
-
 #navbar {
+	background-color: #2d132c;
 	display: flex;
 	justify-content: flex-end;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	right: 0;
 }
