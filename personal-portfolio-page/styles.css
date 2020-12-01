@@ -72,6 +72,11 @@ h1 {
 	flex-wrap: nowrap;
 	justify-content: space-evenly;
 	background-color:#2d132c;
+	padding-bottom: 30px;
+	border: 1px solid wheat;
+	border-top: transparent;
+	border-left: transparent;
+	border-right: transparent;
 }
 
 .project-img {
@@ -87,4 +92,21 @@ h1 {
 
 h2 {
 	color: #ee4540;
+}
+
+#connect {
+	background-color: #801336;
+	width: 100%;
+	text-align: center;
+}
+
+#connect-h1 {
+	font-size: 2.2rem;
+	padding-top: 70px;
+	color: #2d132c;
+}
+
+.logo {
+	border-radius: 50%;
+	padding: 15px;
 }
